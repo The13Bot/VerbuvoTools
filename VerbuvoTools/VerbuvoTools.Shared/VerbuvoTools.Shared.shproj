@@ -13,12 +13,13 @@
   <ItemGroup>
     <_Globbed_Compile Remove="Strings\UserControl\MyUserControl1.xaml.cs" />
     <_Globbed_Compile Remove="UserControls\ToolMenu.xaml.cs" />
+    <_Globbed_Compile Remove="UserControls\ToolMenuControl - Copy.xaml.cs" />
+    <_Globbed_Compile Remove="UserControls\UserControl1.xaml.cs" />
     <_Globbed_Compile Remove="UserControl\MyUserControl1.xaml.cs" />
     <_Globbed_Compile Remove="UserControl\ToolsMenu.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <_Globbled_Page Remove="Strings\UserControl\MyUserControl1.xaml" />
-    <_Globbled_Page Remove="UserControls\ToolMenu.xaml" />
     <_Globbled_Page Remove="UserControl\MyUserControl1.xaml" />
     <_Globbled_Page Remove="UserControl\ToolsMenu.xaml" />
   </ItemGroup>

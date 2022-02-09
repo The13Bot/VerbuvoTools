@@ -26,8 +26,26 @@ namespace VerbuvoTools
         {
             this.InitializeComponent();
         }
+        
+        
+        
 
         private void ToolMenuControl_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ToolMenuControl_Loaded_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SavedTools_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SavedTools_Loaded_1(object sender, RoutedEventArgs e)
         {
 
         }

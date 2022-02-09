@@ -21,8 +21,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)UserControls\ToolMenu.xaml.cs">
-      <DependentUpon>ToolMenu.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)UserControls\ToolsMenu.xaml.cs">
+      <DependentUpon>ToolsMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UserControls\SavedTools.xaml.cs">
+      <DependentUpon>SavedTools.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -30,7 +33,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="$(MSBuildThisFileDirectory)UserControls\ToolMenu.xaml">
+    <Page Include="$(MSBuildThisFileDirectory)UserControls\ToolsMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UserControls\SavedTools.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

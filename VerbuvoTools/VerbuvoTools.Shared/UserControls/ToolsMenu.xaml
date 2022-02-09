@@ -1,0 +1,77 @@
+﻿<UserControl
+    x:Class="VerbuvoTools.UserControls.ToolsMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VerbuvoTools.UserControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    
+    Height="400" Width="540">
+
+    <Grid CornerRadius="15" Background="#404040">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="91.25"/>
+            <RowDefinition Height="91.25"/>
+            <RowDefinition Height="91.25"/>
+            <RowDefinition Height="91.25"/>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="135"/>
+            <ColumnDefinition Width="135"/>
+            <ColumnDefinition Width="135"/>
+            <ColumnDefinition Width="135"/>
+
+        </Grid.ColumnDefinitions>
+
+        <!--Tabs-->
+
+        <TextBlock Text="Favorite"
+                   Foreground="White"
+                   Height="19" Width="120"
+                   FontSize="14" TextAlignment="Center"
+                   Grid.Row="0" Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Margin="0,0"/>
+
+        <Border Background="Gray"
+                Grid.ColumnSpan="4"
+                Grid.RowSpan="5"
+                Height="390" Width="2.2"
+                CornerRadius="1"/>
+
+        <TextBlock Text="Owned"
+                   Foreground="White"
+                   Height="19" Width="120"
+                   FontSize="14" TextAlignment="Center"
+                   Grid.Row="0" Grid.Column="2"
+                   Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Margin="0,0"/>
+        
+        <!--Tools-->
+
+        <Image Source="/Assets/Images/PaperIcon.png"
+               Height="39" Width="39"
+               Margin="0,0,0,18"
+               HorizontalAlignment="Center"
+               Grid.Row="1" Grid.Column="0"/>
+
+        <TextBlock Text="Paper"
+                   Foreground="White"
+                   Height="19" Width="120"
+                   FontSize="12" TextAlignment="Center"
+                   Grid.Row="1" Grid.Column="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Margin="0,15"/>
+
+    </Grid>
+
+</UserControl>

@@ -23,8 +23,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerbuvoTools.Skia.Wpf", "Ve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerbuvoTools.Skia.Gtk", "VerbuvoTools\VerbuvoTools.Skia.Gtk\VerbuvoTools.Skia.Gtk.csproj", "{9E9C5EA3-AB89-440C-8C25-620BC01651A0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerbuvoTools.Skia.Tizen", "VerbuvoTools\VerbuvoTools.Skia.Tizen\VerbuvoTools.Skia.Tizen.csproj", "{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}"
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{06fc2b6f-debf-43c9-940f-d54d3092ecea}*SharedItemsImports = 4
@@ -33,7 +31,6 @@ Global
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{8ecda5cd-ef8b-4262-bdae-7afb475f95a3}*SharedItemsImports = 4
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{9e9c5ea3-ab89-440c-8c25-620bc01651a0}*SharedItemsImports = 5
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{a13a0649-0bb7-4b3f-8ef2-6d97f23731fd}*SharedItemsImports = 4
-		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{abe49233-cdbc-4871-ad3f-ebc80a2dfa26}*SharedItemsImports = 5
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{ca7181d6-bc4b-43ac-a9ad-089196165740}*SharedItemsImports = 5
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{defe3b2b-62bf-48d9-a035-bc3b6685c512}*SharedItemsImports = 4
 	EndGlobalSection
@@ -572,62 +569,6 @@ Global
 		{9E9C5EA3-AB89-440C-8C25-620BC01651A0}.Release|x64.Build.0 = Release|Any CPU
 		{9E9C5EA3-AB89-440C-8C25-620BC01651A0}.Release|x86.ActiveCfg = Release|Any CPU
 		{9E9C5EA3-AB89-440C-8C25-620BC01651A0}.Release|x86.Build.0 = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|ARM.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|ARM64.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|ARM64.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|x86.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Ad-Hoc|x86.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|Any CPU.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|ARM.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|ARM.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|ARM64.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|ARM64.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|iPhone.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|x64.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|x64.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|x86.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.AppStore|x86.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|ARM.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|x64.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Debug|x86.Build.0 = Debug|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|ARM.ActiveCfg = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|ARM.Build.0 = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|ARM64.Build.0 = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|iPhone.Build.0 = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|x64.ActiveCfg = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|x64.Build.0 = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|x86.ActiveCfg = Release|Any CPU
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -641,7 +582,6 @@ Global
 		{F71CAFEC-206C-486A-96FA-97546726EDC4} = {3CA7D9A8-DC44-434B-8D13-627934EF01A4}
 		{CA7181D6-BC4B-43AC-A9AD-089196165740} = {3CA7D9A8-DC44-434B-8D13-627934EF01A4}
 		{9E9C5EA3-AB89-440C-8C25-620BC01651A0} = {3CA7D9A8-DC44-434B-8D13-627934EF01A4}
-		{ABE49233-CDBC-4871-AD3F-EBC80A2DFA26} = {3CA7D9A8-DC44-434B-8D13-627934EF01A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F46B7C9-9DE1-4E1A-A4D5-788E9D3ACD96}
