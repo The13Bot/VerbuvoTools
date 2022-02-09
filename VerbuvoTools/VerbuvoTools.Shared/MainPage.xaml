@@ -19,9 +19,9 @@
             <RowDefinition MinHeight="100" MaxHeight="1400"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        
+
         <Grid Clip="50"/>
-        
+
         <!--Top Interface-->
 
         <Image Source="/Assets/Images/Notifications.png"
@@ -42,7 +42,7 @@
                 Height="36"
                 CornerRadius="18"
                 Grid.Row="2"/>
-        
+
         <Image Source="/Assets/Images/NotSignedIn.png"
                Height="20" Width="20"
                Margin="15,0,0,0"
