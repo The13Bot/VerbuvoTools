@@ -1,0 +1,110 @@
+﻿<UserControl
+    x:Class="VerbuvoTools.UserControls.PaperTool"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:android="http://uno.ui/android"
+	xmlns:ios="http://uno.ui/ios"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VerbuvoTools.UserControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d android ios"
+    
+    MaxHeight="650" MaxWidth="1900">
+
+    <Grid Background="#002259" CornerRadius="6">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!--Top Menu-->
+
+        <Border Background="#FF5F5F5F"
+                Margin="8,8,8,8"
+                CornerRadius="6"
+                Grid.Row="0"/>
+
+        <Image Source="/Assets/Images/PaperTool.png"
+               Height="35" Width="35" Margin="15,0,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Center"/>
+
+        <TextBlock Text="New Paper"
+                   Foreground="White"
+                   Height="23" Width="900"
+                   HorizontalTextAlignment="Center"
+                   FontSize="16" Margin="0,13,0,0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   Grid.Row="0" SelectionChanged="TextBlock_SelectionChanged"/>
+
+        <TextBlock Text="Saved 4/28/22"
+                   Foreground="#c9c9c9"
+                   Height="14" Width="90" 
+                   FontSize="11" Margin="0,0,0,12"
+                   HorizontalTextAlignment="Center"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Grid.Row="0"/>
+
+        <!--Top Menu Options-->
+
+        <TextBlock Text="Files"
+                   Foreground="#c9c9c9"
+                   Height="14" Width="21.5" 
+                   FontSize="11" Margin="59,12,0,0"
+                   HorizontalTextAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Grid.Row="0"/>
+
+        <TextBlock Text="Edit"
+                    Foreground="#c9c9c9"
+                    Height="14" Width="19" 
+                    FontSize="11" Margin="86,12,0,0"
+                    HorizontalTextAlignment="Left"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Grid.Row="0"/>
+
+        <TextBlock Text="Share"
+                    Foreground="#c9c9c9"
+                    Height="14" Width="28" 
+                    FontSize="11" Margin="110,12,0,0"
+                    HorizontalTextAlignment="Left"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Grid.Row="0"/>
+
+        <TextBlock Text="Format"
+                    Foreground="#c9c9c9"
+                    Height="14" Width="34.5" 
+                    FontSize="11" Margin="143,12,0,0"
+                    HorizontalTextAlignment="Left"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Grid.Row="0"/>
+
+        <TextBlock Text="Add"
+                    Foreground="#c9c9c9"
+                    Height="14" Width="20.5" 
+                    FontSize="11" Margin="59,35,0,0"
+                    HorizontalTextAlignment="Left"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Grid.Row="0"/>
+
+        <TextBlock Text="View"
+                    Foreground="#c9c9c9"
+                    Height="14" Width="23.5" 
+                    FontSize="11" Margin="85,35,0,0"
+                    HorizontalTextAlignment="Left"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Grid.Row="0"/>
+
+
+    </Grid>
+
+</UserControl>

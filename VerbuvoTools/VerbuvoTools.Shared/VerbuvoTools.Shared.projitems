@@ -21,6 +21,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UserControls\PaperTool.xaml.cs">
+      <DependentUpon>PaperTool.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)UserControls\ToolsMenu.xaml.cs">
       <DependentUpon>ToolsMenu.xaml</DependentUpon>
     </Compile>
@@ -30,6 +33,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="$(MSBuildThisFileDirectory)MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UserControls\PaperTool.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -69,11 +76,13 @@
     <_Globbed_Content Include="$(MSBuildThisFileDirectory)Assets/**/*.*" Exclude="@(Content)" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\CalculatorTool.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\EventsTool.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Friends.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Menu.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Notifications.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\NotSignedIn.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\PaperIcon.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\PaperTool.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Search.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Settings.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\ToolsMenu.png" />

@@ -10,7 +10,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d android ios"
   
-     Background="Black"
+    Background="Black"
     MinWidth="180" MinHeight="120"
     MaxWidth="1920" MaxHeight="1080">
 
@@ -21,23 +21,43 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
-        <!--Bottom Menus-->
-
+        <!--Tabs-->
+        
+        <Border Background="#3b3b3b"
+                Height="52" Width="230"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="8,0,0,-10.6"
+                CornerRadius="7"/>
+        
+        <TextBlock Text="Saved Tools"
+                   Foreground="White"
+                   Height="20" Width="88" 
+                   FontSize="13" Margin="17,1,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"
+                   Grid.Row="0"/>
+        
         <uc:SavedTools  MinWidth="180" MinHeight="120"
                         MaxWidth="1920" MaxHeight="1080"          
                         Grid.Row="1"/>
 
-        <uc:ToolsMenu
-                            Margin="4.5,-26"
-                            VerticalAlignment="Bottom"
-                            HorizontalAlignment="Left"
-                            Grid.Row="1"/>
+        <!--Tools-->
 
-        <!--Top Interface-->
+        <uc:PaperTool Grid.Row="1"/>
+
+        <!--Bottom Menus-->
 
         
+        <uc:ToolsMenu Margin="4.5,-26"
+                      VerticalAlignment="Bottom"
+                      HorizontalAlignment="Left"
+                      Grid.Row="1" Opacity="0"/>
+
+        <!--Top Interface-->
+        
         <Image Source="/Assets/Images/Notifications.png"
-               Height="20" Width="20" Margin="44"
+               Height="20" Width="20" Margin="0,0,44,0"
                HorizontalAlignment="Right"
                Grid.Row="0"/>
         <android:Image Source="/Assets/Images/Notifications.png"
@@ -87,7 +107,7 @@
                 CornerRadius="4"
                 Grid.Row="2"/>
 
-        <Image Source="/Assets/Images/PaperIcon.png"
+        <Image Source="/Assets/Images/PaperTool.png"
                Height="31" Width="31"
                Margin="0"
                HorizontalAlignment="Center"

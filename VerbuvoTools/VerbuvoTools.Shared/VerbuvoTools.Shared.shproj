@@ -12,6 +12,7 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.CSharp.targets" />
   <ItemGroup>
     <_Globbed_Compile Remove="Strings\UserControl\MyUserControl1.xaml.cs" />
+    <_Globbed_Compile Remove="UserControls\PaperTool.xaml.cs" />
     <_Globbed_Compile Remove="UserControls\ToolMenu.xaml.cs" />
     <_Globbed_Compile Remove="UserControls\ToolMenuControl - Copy.xaml.cs" />
     <_Globbed_Compile Remove="UserControls\UserControl1.xaml.cs" />
@@ -20,6 +21,7 @@
   </ItemGroup>
   <ItemGroup>
     <_Globbled_Page Remove="Strings\UserControl\MyUserControl1.xaml" />
+    <_Globbled_Page Remove="UserControls\PaperTool.xaml" />
     <_Globbled_Page Remove="UserControl\MyUserControl1.xaml" />
     <_Globbled_Page Remove="UserControl\ToolsMenu.xaml" />
   </ItemGroup>
