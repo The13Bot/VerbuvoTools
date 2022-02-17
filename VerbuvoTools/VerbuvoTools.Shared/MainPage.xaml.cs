@@ -30,12 +30,12 @@ namespace VerbuvoTools
         
         
 
-        private void ToolMenuControl_Loaded(object sender, RoutedEventArgs e)
+        private void ToolsMenu_Loaded(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void ToolMenuControl_Loaded_1(object sender, RoutedEventArgs e)
+        private void ToolsMenu_Loaded_1(object sender, RoutedEventArgs e)
         {
 
         }

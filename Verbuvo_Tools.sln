@@ -26,12 +26,9 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{06fc2b6f-debf-43c9-940f-d54d3092ecea}*SharedItemsImports = 4
-		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{30e1fa90-b217-4020-88a8-67cf6a521c47}*SharedItemsImports = 5
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{8ecda5cd-ef8b-4262-bdae-7afb475f95a3}*SharedItemsImports = 4
-		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{9e9c5ea3-ab89-440c-8c25-620bc01651a0}*SharedItemsImports = 5
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{a13a0649-0bb7-4b3f-8ef2-6d97f23731fd}*SharedItemsImports = 4
-		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{ca7181d6-bc4b-43ac-a9ad-089196165740}*SharedItemsImports = 5
 		VerbuvoTools\VerbuvoTools.Shared\VerbuvoTools.Shared.projitems*{defe3b2b-62bf-48d9-a035-bc3b6685c512}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
