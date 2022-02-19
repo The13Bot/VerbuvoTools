@@ -9,70 +9,109 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     
-    Height="400" Width="540">
+    Height="405" Width="460">
 
-    <Grid CornerRadius="15" Background="#404040">
+    <Grid CornerRadius="12" Background="#404040">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>
-            <RowDefinition Height="91.25"/>
-            <RowDefinition Height="91.25"/>
-            <RowDefinition Height="91.25"/>
-            <RowDefinition Height="91.25"/>
-
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="135"/>
-            <ColumnDefinition Width="135"/>
-            <ColumnDefinition Width="135"/>
-            <ColumnDefinition Width="135"/>
-
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-
+   
         <!--Tabs-->
 
-        <TextBlock Text="Favorite"
-                   Foreground="White"
-                   Height="19" Width="120"
-                   FontSize="14" TextAlignment="Center"
+        <TextBlock Text="Owned Tools" Foreground="White"
+                   Height="26" Width="200" Margin="0,3,0,0"
+                   FontSize="18.5" TextAlignment="Center"
                    Grid.Row="0" Grid.ColumnSpan="2"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   Margin="0,0"/>
+                   HorizontalAlignment="Stretch"
+                   VerticalAlignment="Center"/>
 
-        <Border Background="Gray"
-                Grid.ColumnSpan="4"
-                Grid.RowSpan="5"
-                Height="390" Width="2.2"
-                CornerRadius="1"/>
-
-        <TextBlock Text="Owned"
-                   Foreground="White"
-                   Height="19" Width="120"
-                   FontSize="14" TextAlignment="Center"
-                   Grid.Row="0" Grid.Column="2"
-                   Grid.ColumnSpan="2"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   Margin="0,0"/>
-        
         <!--Tools-->
 
-        <Image Source="/Assets/Images/PaperTool.png"
-               Height="39" Width="39"
-               Margin="0,0,0,18"
+        <Image Source="/Assets/Images/Papertool.png"
+               Height="47" Width="47" Margin="0,15,0,48"
                HorizontalAlignment="Center"
-               Grid.Row="1" Grid.Column="0"/>
+               Grid.Row="1"/>
 
-        <TextBlock Text="Paper"
-                   Foreground="White"
-                   Height="19" Width="120"
-                   FontSize="12" TextAlignment="Center"
-                   Grid.Row="1" Grid.Column="0"
+        <TextBlock Text="Paper" Foreground="White"
+                   Height="21" Width="210" Margin="0,65,0,0"
+                   FontSize="15" TextAlignment="Center"
+                   Grid.Row="1"
                    HorizontalAlignment="Center"
-                   VerticalAlignment="Bottom"
-                   Margin="0,15"/>
+                   VerticalAlignment="Top"/>
+
+        <TextBlock Text="Default" Foreground="LightGray"
+                   Height="16" Width="210"
+                   FontSize="12" TextAlignment="Center"
+                   Grid.Row="1"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top" Margin="0,84,0,0"/>
+
+        <Image Source="/Assets/Images/Eventstool.png"
+               Height="47" Width="47" Margin="0,15,0,48"
+               HorizontalAlignment="Center"
+               Grid.Row="1" Grid.Column="1"/>
+
+        <TextBlock Text="Events" Foreground="White"
+                   Height="21" Width="210" Margin="0,65,0,0"
+                   FontSize="15" TextAlignment="Center"
+                   Grid.Row="1" Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"/>
+
+        <TextBlock Text="Default" Foreground="LightGray"
+                   Height="16" Width="210"
+                   FontSize="12" TextAlignment="Center"
+                   Grid.Row="1" Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top" Margin="0,84,0,0"/>
+
+        <Image Source="/Assets/Images/Calculatortool.png"
+               Height="47" Width="47" Margin="0,15,0,48"
+               HorizontalAlignment="Center"
+               Grid.Row="2" Grid.Column="0"/>
+
+        <TextBlock Text="Calculator" Foreground="White"
+                   Height="21" Width="210" Margin="0,65,0,0"
+                   FontSize="15" TextAlignment="Center"
+                   Grid.Row="2" Grid.Column="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"/>
+
+        <TextBlock Text="Default" Foreground="LightGray"
+                   Height="16" Width="210" Margin="0,84,0,0"
+                   FontSize="12" TextAlignment="Center"
+                   Grid.Row="2" Grid.Column="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"/>
+        
+        <Image Source="/Assets/Images/EmailTool.png"
+               Height="47" Width="47" Margin="0,15,0,48"
+               HorizontalAlignment="Center"
+               Grid.Row="2" Grid.Column="1"/>
+
+        <TextBlock Text="Email" Foreground="White"
+                   Height="21" Width="210" Margin="0,65,0,0"
+                   FontSize="15" TextAlignment="Center"
+                   Grid.Row="2" Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"/>
+
+        <TextBlock Text="Default" Foreground="LightGray"
+                   Height="16" Width="210" Margin="0,84,0,0"
+                   FontSize="12" TextAlignment="Center"
+                   Grid.Row="2" Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"/>
 
     </Grid>
 

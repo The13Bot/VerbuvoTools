@@ -9,7 +9,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d android ios"
     
-    MaxHeight="650" MaxWidth="1900">
+    MaxHeight="650" MaxWidth="1910">
 
     <Grid Background="#002259" CornerRadius="6">
 
@@ -21,8 +21,8 @@
         <!--Top Menu-->
 
         <Border Background="#FF5F5F5F"
-                Margin="8,8,8,8"
-                CornerRadius="6"
+                Margin="5,6,7,6"
+                CornerRadius="5.5"
                 Grid.Row="0"/>
 
         <Image Source="/Assets/Images/PaperTool.png"
@@ -32,79 +32,94 @@
 
         <TextBlock Text="New Paper"
                    Foreground="White"
-                   Height="23" Width="900"
+                   Height="21" Width="900"
                    HorizontalTextAlignment="Center"
-                   FontSize="16" Margin="0,13,0,0"
+                   FontSize="15" Margin="0,0,0,17.5"
                    HorizontalAlignment="Center"
-                   VerticalAlignment="Top"
+                   VerticalAlignment="Center"
                    Grid.Row="0" SelectionChanged="TextBlock_SelectionChanged"/>
 
         <TextBlock Text="Saved 4/28/22"
                    Foreground="#c9c9c9"
                    Height="14" Width="90" 
-                   FontSize="11" Margin="0,0,0,12"
+                   FontSize="12" Margin="0,17,0,0"
                    HorizontalTextAlignment="Center"
                    HorizontalAlignment="Center"
-                   VerticalAlignment="Bottom"
+                   VerticalAlignment="Center"
                    Grid.Row="0"/>
+
+        <Image Source="/Assets/Images/Close.png"
+               Height="13" Width="13" Margin="0,14,15,0"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Top"/>
+
 
         <!--Top Menu Options-->
 
         <TextBlock Text="Files"
                    Foreground="#c9c9c9"
-                   Height="14" Width="21.5" 
-                   FontSize="11" Margin="59,12,0,0"
+                   Height="16" Width="26" 
+                   FontSize="13" Margin="58,12,0,0"
                    HorizontalTextAlignment="Left"
                    HorizontalAlignment="Left"
                    VerticalAlignment="Top"
                    Grid.Row="0"/>
 
         <TextBlock Text="Edit"
-                    Foreground="#c9c9c9"
-                    Height="14" Width="19" 
-                    FontSize="11" Margin="86,12,0,0"
-                    HorizontalTextAlignment="Left"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Grid.Row="0"/>
+                   Foreground="#c9c9c9"
+                   Height="16" Width="23" 
+                   FontSize="13" Margin="90,12,0,0"
+                   HorizontalTextAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Grid.Row="0"/>
 
         <TextBlock Text="Share"
-                    Foreground="#c9c9c9"
-                    Height="14" Width="28" 
-                    FontSize="11" Margin="110,12,0,0"
-                    HorizontalTextAlignment="Left"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Grid.Row="0"/>
+                   Foreground="#c9c9c9"
+                   Height="16" Width="33" 
+                   FontSize="13" Margin="119,12,0,0"
+                   HorizontalTextAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Grid.Row="0"/>
 
         <TextBlock Text="Format"
-                    Foreground="#c9c9c9"
-                    Height="14" Width="34.5" 
-                    FontSize="11" Margin="143,12,0,0"
-                    HorizontalTextAlignment="Left"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Grid.Row="0"/>
+                   Foreground="#c9c9c9"
+                   Height="16" Width="42" 
+                   FontSize="13" Margin="159,12,0,0"
+                   HorizontalTextAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Grid.Row="0"/>
 
         <TextBlock Text="Add"
-                    Foreground="#c9c9c9"
-                    Height="14" Width="20.5" 
-                    FontSize="11" Margin="59,35,0,0"
-                    HorizontalTextAlignment="Left"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Grid.Row="0"/>
+                   Foreground="#c9c9c9"
+                   Height="16" Width="24" 
+                   FontSize="13" Margin="58,33,0,0"
+                   HorizontalTextAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Grid.Row="0"/>
 
         <TextBlock Text="View"
-                    Foreground="#c9c9c9"
-                    Height="14" Width="23.5" 
-                    FontSize="11" Margin="85,35,0,0"
-                    HorizontalTextAlignment="Left"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Grid.Row="0"/>
+                   Foreground="#c9c9c9"
+                   Height="16" Width="29" 
+                   FontSize="13" Margin="89,33,0,0"
+                   HorizontalTextAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Grid.Row="0"/>
 
+        <Border Background="#FF5F5F5F"
+                Width="230" Margin="5,0,7,6"
+                HorizontalAlignment="Left"
+                CornerRadius="5.5" Grid.Row="2"/>
 
+        <Border Background="#FF5F5F5F"
+                Width="50" Margin="5,0,7,6"
+                HorizontalAlignment="Right"
+                CornerRadius="5.5" Grid.Row="2"/>
+        
     </Grid>
 
 </UserControl>

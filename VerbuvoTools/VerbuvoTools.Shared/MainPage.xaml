@@ -16,112 +16,131 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="44"/>
+            <RowDefinition Height="33"/>
             <RowDefinition MinHeight="100" MaxHeight="1400"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
-        <!--Tabs-->
-        
-        <Border Background="#3b3b3b"
-                Height="52" Width="230"
-                VerticalAlignment="Bottom"
-                HorizontalAlignment="Left"
-                Margin="8,0,0,-10.6"
-                CornerRadius="7"/>
-        
-        <TextBlock Text="Saved Tools"
-                   Foreground="White"
-                   Height="20" Width="88" 
-                   FontSize="13" Margin="17,1,0,0"
-                   HorizontalAlignment="Left"
-                   VerticalAlignment="Center"
-                   Grid.Row="0"/>
-        
+        <!--Top Interface-->
+
+        <Image Source="/Assets/Images/Search.png"
+               Height="20" Width="20" Margin="5.5,0"
+               android:Margin="29,0,0,0" ios:Margin="29,0,0,0"
+               HorizontalAlignment="Left" Grid.Row="0"
+               android:VerticalAlignment="Bottom"
+               ios:VerticalAlignment="Bottom"
+               android:Grid.Row="1" ios:Grid.Row="1"/>
+
+        <Image Source="/Assets/Images/Notifications.png"
+               Height="20" Width="20" Margin="32.5,0" 
+               android:Margin="4,0,0,0" ios:Margin="4,0,0,0"
+               HorizontalAlignment="Left" Grid.Row="0"
+               android:VerticalAlignment="Bottom"
+               ios:VerticalAlignment="Bottom"
+               android:Grid.Row="1" ios:Grid.Row="1"/>
+
+        <Border Background="#0b0b0b" CornerRadius="9"
+                Height="43" Width="255" Margin="285,-12,0,0"
+                android:Width="211" ios:Width="211"
+                android:Margin="3,-8,0,0" ios:Margin="3,-8,0,0"
+                VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <TextBlock Text="Default" Foreground="DarkGray"
+                   Height="17" Width="219" Margin="311,5,0,0"
+                   FontSize="12.5"
+                   android:FontSize="11" ios:FontSize="11"
+                   android:Width="200" ios:Width="200"
+                   android:Margin="8,0,0,4" ios:Margin="8,0,0,4"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" SelectionChanged="TextBlock_SelectionChanged"/>
+
+        <Border Background="#2b2b2b" CornerRadius="9"
+                Height="43" Width="241.5" Margin="61,-10,0,0"
+                android:Width="211" ios:Width="211"
+                android:Margin="3,-8,0,0" ios:Margin="3,-8,0,0"
+                VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <TextBlock Text="Saved Tools" Foreground="White"
+                   Height="17" Width="225" Margin="69,7,0,0"
+                   FontSize="12.5" Grid.Row="0"
+                   android:FontSize="11" ios:FontSize="11"
+                   android:Width="200" ios:Width="200"
+                   android:Margin="8,0,0,4" ios:Margin="8,0,0,4"
+                  VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <Image Source="/Assets/Images/Minimize.png"
+               Height="12" Width="12" Margin="5,0,78,0"
+               android:Margin="29,0,0,0" ios:Margin="29,0,0,0"
+               HorizontalAlignment="Right" Grid.Row="0"
+               android:VerticalAlignment="Bottom"
+               ios:VerticalAlignment="Bottom"
+               android:Grid.Row="1" ios:Grid.Row="1"/>
+
+        <Image Source="/Assets/Images/Maximize.png"
+               Height="12" Width="12" Margin="5,0,48,0"
+               android:Margin="29,0,0,0" ios:Margin="29,0,0,0"
+               HorizontalAlignment="Right" Grid.Row="0"
+               android:VerticalAlignment="Bottom"
+               ios:VerticalAlignment="Bottom"
+               android:Grid.Row="1" ios:Grid.Row="1"/>
+
+        <Image Source="/Assets/Images/Close.png"
+               Height="12" Width="12" Margin="5,0,18,0"
+               android:Margin="29,0,0,0" ios:Margin="29,0,0,0"
+               HorizontalAlignment="Right" Grid.Row="0"
+               android:VerticalAlignment="Bottom"
+               ios:VerticalAlignment="Bottom"
+               android:Grid.Row="1" ios:Grid.Row="1"/>
+
         <uc:SavedTools  MinWidth="180" MinHeight="120"
                         MaxWidth="1920" MaxHeight="1080"          
                         Grid.Row="1"/>
 
         <!--Tools-->
 
-        <uc:PaperTool Grid.Row="1"/>
+        <uc:PaperTool Grid.Row="1" Opacity="1" Margin="5,5,5,0" Loaded="PaperTool_Loaded"/>
 
         <!--Bottom Menus-->
 
-        
-        <uc:ToolsMenu Margin="4.5,-26"
+        <uc:ToolsMenu Margin="3,-39"
                       VerticalAlignment="Bottom"
                       HorizontalAlignment="Left"
-                      Grid.Row="1" Opacity="0"/>
+                      Grid.Row="1" Opacity="1"/>
 
-        <!--Top Interface-->
-        
-        <Image Source="/Assets/Images/Notifications.png"
-               Height="20" Width="20" Margin="0,0,44,0"
-               HorizontalAlignment="Right"
-               Grid.Row="0"/>
-        <android:Image Source="/Assets/Images/Notifications.png"
-               Height="20" Width="20" Margin="0,0,6,-2"
-               HorizontalAlignment="Right" VerticalAlignment="Bottom"
-               Grid.Row="1"/>
-        <ios:Image Source="/Assets/Images/Notifications.png"
-               Height="20" Width="20" Margin="0,0,6,-2"
-               HorizontalAlignment="Right" VerticalAlignment="Bottom"
-               Grid.Row="1"/>
-        
-        <Image Source="/Assets/Images/Search.png"
-               Height="20" Width="20" Margin="12"
-               HorizontalAlignment="Right" Grid.Row="0"/>
-        <android:Image Source="/Assets/Images/Search.png"
-               Height="20" Width="20" Margin="0,0,33,-2"
-               HorizontalAlignment="Right" VerticalAlignment="Bottom"
-               Grid.Row="1"/>
-        <ios:Image Source="/Assets/Images/Search.png"
-               Height="20" Width="20" Margin="0,0,33,-2"
-               HorizontalAlignment="Right" VerticalAlignment="Bottom"
-               Grid.Row="1"/>
-        
-        <!--Low Interface-->
+        <!--Low Intrerface-->
 
         <Border Background="#FF5F5F5F"
-                Margin="3.5"
-                Height="36"
+                Margin="3,6,3,6"
                 CornerRadius="18"
                 Grid.Row="2"/>
 
         <Image Source="/Assets/Images/NotSignedIn.png"
-               Height="20" Width="20"
-               Margin="15"
+               Height="20" Width="20" Margin="14"
                HorizontalAlignment="Left"
                Grid.Row="2"/>
 
         <Image Source="/Assets/Images/ToolsMenu.png"
-               Height="20" Width="20"
-               Margin="51"
+               Height="20" Width="20" Margin="48,0,0,0"
                HorizontalAlignment="Left"
                Grid.Row="2"/>
 
         <Border Background="#FF777575"
-                Margin="7"
-                Height="43" Width="43"
-                CornerRadius="4"
-                Grid.Row="2"/>
+                Height="45" Width="45" Margin="0,0,0,0" 
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                CornerRadius="4" Grid.Row="2"/>
 
-        <Image Source="/Assets/Images/PaperTool.png"
-               Height="31" Width="31"
-               Margin="0"
+        <Image Source="/Assets/Images/Papertool.png"
+               Height="34.5" Width="34.5" Margin="0,0,0,0"
                HorizontalAlignment="Center"
                Grid.Row="2"/>
 
         <Image Source="/Assets/Images/Friends.png"
-               Height="20" Width="20"
-               Margin="51"
+               Height="20" Width="20" Margin="0,0,48,0"
                HorizontalAlignment="Right"
                Grid.Row="2"/>
 
         <Image Source="/Assets/Images/Settings.png"
-               Height="20" Width="20"
-               Margin="15"
+               Height="20" Width="20" Margin="0,0,14,0"
                HorizontalAlignment="Right"
                Grid.Row="2"/>
 

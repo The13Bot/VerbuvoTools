@@ -50,9 +50,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Assets\SharedAssets.md" />
-  </ItemGroup>
-  <ItemGroup>
     <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
@@ -76,10 +73,18 @@
     <_Globbed_Content Include="$(MSBuildThisFileDirectory)Assets/**/*.*" Exclude="@(Content)" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Assets\SharedAssets.md" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\CalculatorTool.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Close.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\EmailTool.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\EventsTool.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Friends.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\GalleryTool.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Maximize.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Menu.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Minimize.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\Notifications.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\NotSignedIn.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\PaperTool.png" />

@@ -27,9 +27,6 @@ namespace VerbuvoTools
             this.InitializeComponent();
         }
         
-        
-        
-
         private void ToolsMenu_Loaded(object sender, RoutedEventArgs e)
         {
 
@@ -46,6 +43,16 @@ namespace VerbuvoTools
         }
 
         private void SavedTools_Loaded_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void PaperTool_Loaded(object sender, RoutedEventArgs e)
         {
 
         }
