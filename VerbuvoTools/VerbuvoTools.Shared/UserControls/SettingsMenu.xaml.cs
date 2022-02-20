@@ -17,9 +17,9 @@ using Windows.UI.Xaml.Navigation;
 
 namespace VerbuvoTools.UserControls
 {
-    public sealed partial class ToolsMenu : UserControl
+    public sealed partial class SettingsMenu : UserControl
     {
-        public ToolsMenu()
+        public SettingsMenu()
         {
             this.InitializeComponent();
         }

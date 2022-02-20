@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,11 +22,13 @@ namespace VerbuvoTools
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public static MainPage Instance { get; }
+
         public MainPage()
         {
             this.InitializeComponent();
         }
-        
+
         private void ToolsMenu_Loaded(object sender, RoutedEventArgs e)
         {
 

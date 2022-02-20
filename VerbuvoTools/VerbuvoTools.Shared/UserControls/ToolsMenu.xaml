@@ -9,16 +9,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     
-    Height="405" Width="460">
+    Height="405" Width="490">
 
     <Grid CornerRadius="12" Background="#404040">
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="35"/>
+            <RowDefinition Height="31"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="40"/>
+            <RowDefinition Height="41"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -28,7 +28,7 @@
    
         <!--Tabs-->
 
-        <TextBlock Text="Owned Tools" Foreground="White"
+        <TextBlock Text="Saved Tools" Foreground="White"
                    Height="26" Width="200" Margin="0,3,0,0"
                    FontSize="18.5" TextAlignment="Center"
                    Grid.Row="0" Grid.ColumnSpan="2"
@@ -110,6 +110,25 @@
                    Height="16" Width="210" Margin="0,84,0,0"
                    FontSize="12" TextAlignment="Center"
                    Grid.Row="2" Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"/>
+
+        <Image Source="/Assets/Images/GalleryTool.png"
+               Height="47" Width="47" Margin="0,15,0,48"
+               HorizontalAlignment="Center"
+               Grid.Row="3" Grid.Column="0"/>
+
+        <TextBlock Text="Gallery" Foreground="White"
+                   Height="21" Width="210" Margin="0,65,0,0"
+                   FontSize="15" TextAlignment="Center"
+                   Grid.Row="3" Grid.Column="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"/>
+
+        <TextBlock Text="Default" Foreground="LightGray"
+                   Height="16" Width="210" Margin="0,84,0,0"
+                   FontSize="12" TextAlignment="Center"
+                   Grid.Row="3" Grid.Column="0"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Top"/>
 

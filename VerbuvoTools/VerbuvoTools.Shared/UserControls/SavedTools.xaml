@@ -15,10 +15,10 @@
     <Grid>
 
         <Grid.RowDefinitions>
-            <RowDefinition MinHeight="91.25"/>
-            <RowDefinition MinHeight="91.25"/>
-            <RowDefinition MinHeight="91.25"/>
-            <RowDefinition MinHeight="91.25"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -34,14 +34,14 @@
                Grid.Row="0" Grid.Column="0"/>
 
         <TextBlock Text="Paper" Foreground="White"
-                   Height="24" Width="310" Margin="0,73,0,0"
+                   Height="24" Width="300" Margin="0,73,0,0"
                    FontSize="16.5" TextAlignment="Center"
                    Grid.Row="0" Grid.Column="0"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"/>
-        
+
         <TextBlock Text="Default" Foreground="LightGray"
-                   Height="16" Width="360" Margin="0,108.5,0,0"
+                   Height="16" Width="300" Margin="0,108.5,0,0"
                    FontSize="12" TextAlignment="Center"
                    Grid.Row="0" Grid.Column="0"
                    HorizontalAlignment="Center"
@@ -53,14 +53,14 @@
                Grid.Row="0" Grid.Column="1"/>
 
         <TextBlock Text="Events" Foreground="White"
-                   Height="24" Width="310" Margin="0,73,0,0"
+                   Height="24" Width="300" Margin="0,73,0,0"
                    FontSize="16.5" TextAlignment="Center"
                    Grid.Row="0" Grid.Column="1"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"/>
 
         <TextBlock Text="Default" Foreground="LightGray"
-                   Height="16" Width="360" Margin="0,108.5,0,0"
+                   Height="16" Width="300" Margin="0,108.5,0,0"
                    FontSize="12" TextAlignment="Center"
                    Grid.Row="0" Grid.Column="1"
                    HorizontalAlignment="Center"
@@ -72,14 +72,14 @@
                Grid.Row="0" Grid.Column="2"/>
 
         <TextBlock Text="Calculator" Foreground="White"
-                   Height="24" Width="310" Margin="0,73,0,0"
+                   Height="24" Width="300" Margin="0,73,0,0"
                    FontSize="16.5" TextAlignment="Center"
                    Grid.Row="0" Grid.Column="2"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"/>
 
         <TextBlock Text="Default" Foreground="LightGray"
-                   Height="16" Width="360" Margin="0,108.5,0,0"
+                   Height="16" Width="300" Margin="0,108.5,0,0"
                    FontSize="12" TextAlignment="Center"
                    Grid.Row="0" Grid.Column="2"
                    HorizontalAlignment="Center"
@@ -91,18 +91,37 @@
                Grid.Row="0" Grid.Column="3"/>
 
         <TextBlock Text="Email" Foreground="White"
-                   Height="24" Width="310" Margin="0,73,0,0"
+                   Height="24" Width="300" Margin="0,73,0,0"
                    FontSize="16.5" TextAlignment="Center"
                    Grid.Row="0" Grid.Column="3"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"/>
 
         <TextBlock Text="Default" Foreground="LightGray"
-                   Height="16" Width="360" Margin="0,108.5,0,0"
+                   Height="16" Width="300" Margin="0,108.5,0,0"
                    FontSize="12" TextAlignment="Center"
                    Grid.Row="0" Grid.Column="3"
                    HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>        
+                   VerticalAlignment="Center"/>
+
+        <Image Source="/Assets/Images/GalleryTool.png"
+               Height="70" Width="70" Margin="0,0,0,30"
+               HorizontalAlignment="Center"
+               Grid.Row="1" Grid.Column="0"/>
+
+        <TextBlock Text="Email" Foreground="White"
+                   Height="24" Width="300" Margin="0,73,0,0"
+                   FontSize="16.5" TextAlignment="Center"
+                   Grid.Row="1" Grid.Column="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
+
+        <TextBlock Text="Default" Foreground="LightGray"
+                   Height="16" Width="300" Margin="0,108.5,0,0"
+                   FontSize="12" TextAlignment="Center"
+                   Grid.Row="1" Grid.Column="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
 
     </Grid>
 

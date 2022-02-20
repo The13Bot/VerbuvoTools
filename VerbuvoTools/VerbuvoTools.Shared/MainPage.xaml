@@ -17,7 +17,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="33"/>
-            <RowDefinition MinHeight="100" MaxHeight="1400"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
@@ -45,7 +45,7 @@
                 android:Margin="3,-8,0,0" ios:Margin="3,-8,0,0"
                 VerticalAlignment="Top" HorizontalAlignment="Left"/>
 
-        <TextBlock Text="Default" Foreground="DarkGray"
+        <TextBlock Text="Default Tools" Foreground="DarkGray"
                    Height="17" Width="219" Margin="311,5,0,0"
                    FontSize="12.5"
                    android:FontSize="11" ios:FontSize="11"
@@ -91,9 +91,7 @@
                ios:VerticalAlignment="Bottom"
                android:Grid.Row="1" ios:Grid.Row="1"/>
 
-        <uc:SavedTools  MinWidth="180" MinHeight="120"
-                        MaxWidth="1920" MaxHeight="1080"          
-                        Grid.Row="1"/>
+        <uc:SavedTools Grid.Row="1"/>
 
         <!--Tools-->
 
@@ -106,6 +104,11 @@
                       HorizontalAlignment="Left"
                       Grid.Row="1" Opacity="1"/>
 
+        <uc:SettingsMenu Margin="3,-39"
+                      VerticalAlignment="Bottom"
+                      HorizontalAlignment="Left"
+                      Grid.Row="1" Opacity="1"/>
+        
         <!--Low Intrerface-->
 
         <Border Background="#FF5F5F5F"
@@ -122,6 +125,12 @@
                Height="20" Width="20" Margin="48,0,0,0"
                HorizontalAlignment="Left"
                Grid.Row="2"/>
+
+        <ToggleButton x:Name="toolmenu"
+                     Height="20" Width="20" 
+                     Margin="48,0,0,0" 
+                     HorizontalAlignment="Left" 
+                     Grid.Row="2" Opacity="0"/>
 
         <Border Background="#FF777575"
                 Height="45" Width="45" Margin="0,0,0,0" 
