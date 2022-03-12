@@ -22,8 +22,6 @@ namespace VerbuvoTools
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        public static MainPage Instance { get; }
-
         public MainPage()
         {
             this.InitializeComponent();
@@ -34,17 +32,7 @@ namespace VerbuvoTools
 
         }
 
-        private void ToolsMenu_Loaded_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void SavedTools_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void SavedTools_Loaded_1(object sender, RoutedEventArgs e)
         {
 
         }

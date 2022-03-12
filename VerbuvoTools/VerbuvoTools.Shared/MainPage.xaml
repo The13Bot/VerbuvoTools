@@ -104,6 +104,8 @@
                       HorizontalAlignment="Left"
                       Grid.Row="1" Opacity="1"/>
 
+        
+
         <uc:SettingsMenu Margin="3,-39"
                       VerticalAlignment="Bottom"
                       HorizontalAlignment="Left"
@@ -126,11 +128,12 @@
                HorizontalAlignment="Left"
                Grid.Row="2"/>
 
-        <ToggleButton x:Name="toolmenu"
-                     Height="20" Width="20" 
-                     Margin="48,0,0,0" 
-                     HorizontalAlignment="Left" 
-                     Grid.Row="2" Opacity="0"/>
+        <ToggleButton x:Name="UCToolsMenu"
+                      IsChecked="{x:Bind UCToolsMenu.IsEnabled, Mode=TwoWay}"
+                      Height="20" Width="20" 
+                      Margin="48,0,0,0" 
+                      HorizontalAlignment="Left" 
+                      Grid.Row="2" Opacity="0"/>
 
         <Border Background="#FF777575"
                 Height="45" Width="45" Margin="0,0,0,0" 
@@ -154,5 +157,5 @@
                Grid.Row="2"/>
 
     </Grid>
-
+    
 </Page>

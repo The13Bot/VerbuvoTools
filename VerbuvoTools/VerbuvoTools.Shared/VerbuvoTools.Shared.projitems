@@ -24,9 +24,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)UserControls\PaperTool.xaml.cs">
       <DependentUpon>PaperTool.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)UserControls\ToolsMenu - Copy.xaml.cs">
-      <DependentUpon>ToolsMenu.xaml</DependentUpon>
-    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)UserControls\ToolsMenu.xaml.cs">
       <DependentUpon>ToolsMenu.xaml</DependentUpon>
     </Compile>
